@@ -1,0 +1,25 @@
+1. Upload the extracted game files to the root of your GitHub repository.
+   Include index.html, script.js, style.css, viewport.css, viewport.js,
+   .nojekyll and the complete assets folder. Upload files, not the ZIP itself.
+2. GitHub → Settings → Pages → Deploy from a branch → main → /(root) → Save.
+3. Wait for GitHub Pages to show the HTTPS site address. Open it and test the game.
+4. In Genially, insert external content and paste the iframe below.
+   Replace YOUR-USER and YOUR-REPOSITORY with your GitHub Pages address.
+5. Set the Genially object to 16:9 (for example 1280 × 720 or 960 × 540).
+   The game fits the whole iframe. Do not crop the iframe or use a github.com repository URL.
+
+<iframe src="https://YOUR-USER.github.io/YOUR-REPOSITORY/index.html?embed=1" title="Dracula's Monster Check" width="1280" height="720" style="border:0;display:block;width:100%;height:100%;aspect-ratio:16/9;" allow="autoplay; fullscreen; clipboard-write" allowfullscreen></iframe>
+
+Use an HTTPS GitHub Pages URL, not a local localhost address or a raw file URL.
+No third-party CDN, server, build step or font download is required.
+The original 16:9 stage scales uniformly; portrait screens have empty space above/below.
+For comfortable reading on a phone, rotate the device to landscape or enlarge the Genially embed.
+Completion still sends HOTEL_MISSION_COMPLETED to the parent. Genially does not automatically
+handle this event: the local award and MONSTER1 code remain available.
+Some browsers restrict localStorage or clipboard inside third-party frames; the game still runs,
+but persistent saving or automatic copying can be unavailable. The code remains visible.
+Speech playback depends on a local English voice installed on the learner's device.
+
+Official setup references:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+https://help.genially.com/en_us/embed-a-google-sheets-chart-in-genially-Skq3qwr3j

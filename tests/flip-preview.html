@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><style>body{margin:0}iframe{width:100vw;height:100vh;border:0}pre{display:none}</style><iframe src="../index.html"></iframe><script>
+document.querySelector('iframe').onload=async function(){
+ const w=this.contentWindow,d=w.document,results=[],check=(name,ok)=>results.push({name,ok:!!ok});
+ w.eval("state={...fresh(),screen:'gallery'};render()");
+ check('word is shown first',d.querySelector('.portrait-front strong')?.textContent==='VAMPIRE');
+ check('picture is on reverse',!!d.querySelector('.portrait-back img'));
+ check('eight portraits',d.querySelectorAll('[data-flip]').length===8);
+ for(const b of d.querySelectorAll('[data-flip]')){b.click();check(b.dataset.flip+' flips',b.classList.contains('is-flipped')&&b.getAttribute('aria-pressed')==='true');b.click();check(b.dataset.flip+' returns',!b.classList.contains('is-flipped'));}
+ d.querySelector('[data-flip="frankenstein-monster"]').click();
+ await new Promise(r=>setTimeout(r,750));
+ const back=d.querySelector('.is-flipped .portrait-back');check('long name fits',back.scrollHeight<=back.clientHeight);
+ if(location.search.includes('victory')){
+ w.eval("state={...fresh(),screen:'victory',complete:true,stamps:monsters.map(m=>m.id)};render()");
+ check('key removed',!d.querySelector('.golden-key'));check('continue removed',!d.querySelector('#map'));check('only replay action',d.querySelectorAll('.victory-actions button').length===1&&!!d.querySelector('#play-again'));
+ if(!location.search.includes('visual')){d.querySelector('#play-again').click();check('replay restarts',d.querySelector('#continue'));}}
+ const pre=document.createElement('pre');pre.id='results';pre.textContent=JSON.stringify(results);document.body.append(pre);
+};</script>

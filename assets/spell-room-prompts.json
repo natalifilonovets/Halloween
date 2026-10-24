@@ -1,0 +1,7 @@
+{
+  "tool": "built-in imagegen",
+  "prompts": {
+    "assets/spell-room.png": "Use case: stylized-concept. Asset: polished landscape 16:9 background for a children's Halloween spelling game, magical gothic hotel spell room. Beautiful high quality animated film environment, rich deep plum and midnight blue, luminous teal and violet crystal lamps, golden brass details, distant tall arched windows, star dust, layered depth. Wide clear dark central playing area with no clutter, restrained detail only at edges, soft inviting lighting, no characters, no lettering, no floating balls. Full bleed landscape composition.",
+    "assets/spell-orb.png": "Use case: stylized-concept. Asset: ONE premium illustrated magic glass bubble for a children's spelling game UI. Perfectly circular spherical translucent glass orb, straight-on, centered, fills 85 percent of square. Beautiful dimensional glossy rim, cyan violet iridescent edge, delicate gold dust and tiny sparkles at the perimeter, bright specular highlights top left, soft purple luminous inner haze, dark transparent clear central area reserved for a readable letter. Polished 3D animated movie quality, actual transparent background outside orb, no text, no letters, no other objects."
+  }
+}

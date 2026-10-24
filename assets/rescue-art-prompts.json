@@ -1,0 +1,11 @@
+{
+  "tool": "built-in imagegen",
+  "shared": "Original panoramic 2.5:1 premium 3D animated Halloween game environments. Warm candlelight, rich velvet and carved stone, burgundy/purple/gold, blue moonlight, clear foreground, no characters or interface text.",
+  "scenes": {
+    "vampire": "Lavish upper tower room in a friendly gothic monster hotel. Carved stone walls, curved ceiling beams, burgundy velvet curtains, antique bench on left, candles, polished wood floor and oval burgundy rug. ONE small arched open window high in the back wall at 83% horizontal and 20% vertical, moonlight outside. Open floor central left for character animation. No luggage.",
+    "werewolf": "Beautiful moonlit enchanted garden and forest beside a gothic monster hotel. Crooked pine trees layered in blue mist, a charming hotel facade with warm lit windows on far left, winding stone path through the lower middle, amber lanterns, silver full moon high on right. Clear flat foreground center-left for a character. Inviting rather than scary.",
+    "invisible-man": "Luxurious secret corridor inside a gothic monster hotel. Burgundy velvet wall panels, carved gilded picture frames, warm candle sconces, moonlit blue reflective marble, runner rug, arch ceiling. A tall OPEN arched doorway at 82% horizontal, glowing blue passage beyond; a suit of armor statue at far left. Keep floor center-left unobstructed. No people.",
+    "frankenstein-monster": "Rich hotel luggage hall in a gothic monster hotel, a bellhop luggage trolley with small antique trunks far back on left, arched moonlit window, carved wooden service door on far right, golden candle sconces, burgundy carpet, polished floor. Clear unobstructed foreground center AND right where an animated heavy suitcase will be placed. Do not paint any large suitcase in foreground.",
+    "mummy": "Elaborate ancient Egypt FILM SET built inside a luxurious gothic hotel's ballroom. Scenic miniature pyramid backdrop, decorative sandstone prop pillars, gold scarab ornaments, velvet stage curtains at sides, amber cinematic studio lighting and a visible spotlight beam, burgundy and gold floor. Clearly a theatrical set, not a real tomb. Clear foreground center-left for actor and clear foreground right for animated camera. No camera, no people."
+  }
+}
